@@ -11,10 +11,18 @@
 |
 */
 
+/*
+| Basic Routing
+*/
+Route::get('/say-hello', function () {
+    return 'Hello, World!';
+});
+
+// Redirect Routes
+Route::redirect('/hi', '/say-hello', 301);
+
+// View Routes
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('foo', function () {
-    return 'Hello World';
-});
+Route::view('/welcome', 'welcome');
