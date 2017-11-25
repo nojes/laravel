@@ -26,3 +26,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('/welcome', 'welcome');
+
+
+/*
+| Route Parameters
+*/
+Route::get('/say-hello/{name}', function ($name) {
+    return 'Hello, ' . ucfirst($name) . '!';
+});
