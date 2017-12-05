@@ -34,3 +34,6 @@ Route::view('/welcome', 'welcome');
 Route::get('/say-hello/{name}', function ($name) {
     return 'Hello, ' . ucfirst($name) . '!';
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
