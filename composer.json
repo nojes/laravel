@@ -1,6 +1,6 @@
 {
     "name": "nojes/laravel",
-    "description": "The test project for learning of Laravel PHP Framework.",
+    "description": "The demo project for learning of Laravel PHP Framework.",
     "keywords": ["framework", "laravel", "learning"],
     "license": "MIT",
     "type": "project",

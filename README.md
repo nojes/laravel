@@ -1,9 +1,9 @@
 
-# Laravel Framework project
+# Laravel
 
 [![Build Status](https://travis-ci.org/nojes/laravel.svg?branch=master)](https://travis-ci.org/nojes/laravel)
 
-This is a test project for learning of Laravel PHP Framework.
+> A demo project for learning of Laravel PHP Framework.
 
 ### Installation Laravel
 
